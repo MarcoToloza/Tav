@@ -16,7 +16,7 @@ export class RestablecerPage implements OnInit {
   }
   recuperar() {
     if (this.formRecuperar.value.usuario != '') {
-      this.navCtrl.navigateForward('/login');
+      this.navCtrl.navigateForward('/home');
     } else {
       console.log('Debe ingresar un usuario')
     }

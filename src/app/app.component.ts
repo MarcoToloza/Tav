@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   constructor() {}
-  ngOnInit() {}
-  public usuario:string = "";
-
+  ngOnInit(){}
+  public usuario:string ="";
 }

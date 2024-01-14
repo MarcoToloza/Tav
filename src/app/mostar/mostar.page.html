@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons [routerLink]="['/home']" slot="secondary">
+        <ion-icon color="warning" slot="icon-only" name="arrow-back"></ion-icon>
+    </ion-buttons>
+    <ion-title color="warning">Duoc</ion-title>
+  </ion-toolbar>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-progress-bar type="indeterminate" color="warning"></ion-progress-bar>
+    <img  src="assets/img/usuario.jpg" />
+    <ion-card-header>
+      <ion-card-title>
+        Bienvenido: {{appComponent.usuario}}
+      </ion-card-title>
+    </ion-card-header>
+    <ion-progress-bar type="indeterminate" color="warning"></ion-progress-bar>
+  </ion-card>
+</ion-content>
+
